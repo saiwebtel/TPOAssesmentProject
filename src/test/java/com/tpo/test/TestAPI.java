@@ -1,16 +1,15 @@
 package com.tpo.test;
 
+import org.json.JSONObject;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import com.tpo.testbase.TestBase;
 import com.tpo.testdata.TestDataGeneration;
 import com.tpo.utils.RestUtils;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-
-import org.json.JSONObject;
-import org.testng.Assert;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
 
 public class TestAPI extends TestBase{
 	public static int id;
