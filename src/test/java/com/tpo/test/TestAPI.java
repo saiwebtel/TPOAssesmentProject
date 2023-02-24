@@ -19,7 +19,7 @@ public class TestAPI extends TestBase{
 	{		
 		RestAssured.basePath="api/register";
 		Response response=RestUtils.sendPostRequest(TestDataGeneration.jsonBody());
-		Assert.assertEquals(200,response.getStatusCode());
+		Assert.assertEquals(200,response.getStatusCode()); //Validating response code
 		id=response.getBody().jsonPath().get("id");
 	}
 	@Test

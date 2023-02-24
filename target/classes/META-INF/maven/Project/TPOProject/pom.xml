@@ -20,19 +20,19 @@
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>json-path</artifactId>
-			<version>3.3.0</version>
+			<version>4.3.3</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>xml-path</artifactId>
-			<version>3.3.0</version>
+			<version>4.3.3</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>json-schema-validator</artifactId>
-			<version>3.3.0</version>
+			<version>4.3.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -50,7 +50,7 @@
 		<dependency>
 			<groupId>org.codehaus.groovy</groupId>
 			<artifactId>groovy-all</artifactId>
-			<version>2.4.5</version>
+			<version>2.4.7</version>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
@@ -77,7 +77,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.141.59</version>
+			<version>4.0.0</version>
 		</dependency>
 	</dependencies>
 	<build>
