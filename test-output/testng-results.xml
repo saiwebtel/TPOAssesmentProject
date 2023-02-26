@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-24T10:49:56 IST" name="Suite" finished-at="2023-02-24T10:49:59 IST" duration-ms="2706">
+  <suite started-at="2023-02-26T20:31:39 IST" name="Suite" finished-at="2023-02-26T20:31:42 IST" duration-ms="2715">
     <groups>
     </groups>
-    <test started-at="2023-02-24T10:49:56 IST" name="Test" finished-at="2023-02-24T10:49:59 IST" duration-ms="2706">
+    <test started-at="2023-02-26T20:31:39 IST" name="Test" finished-at="2023-02-26T20:31:42 IST" duration-ms="2715">
       <class name="com.tpo.test.TestAPI">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.tpo.test.TestAPI@2cb4893b]" started-at="2023-02-24T10:49:56 IST" name="beforeSuite" finished-at="2023-02-24T10:49:56 IST" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.tpo.test.TestAPI@6caf0677]" started-at="2023-02-26T20:31:39 IST" name="beforeSuite" finished-at="2023-02-26T20:31:39 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="testPostMethod()[pri:0, instance:com.tpo.test.TestAPI@2cb4893b]" started-at="2023-02-24T10:49:56 IST" name="testPostMethod" finished-at="2023-02-24T10:49:58 IST" duration-ms="1484" status="PASS">
+        <test-method signature="testPostMethod()[pri:0, instance:com.tpo.test.TestAPI@6caf0677]" started-at="2023-02-26T20:31:39 IST" name="testPostMethod" finished-at="2023-02-26T20:31:41 IST" duration-ms="1452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostMethod -->
-        <test-method signature="testPutMethod()[pri:0, instance:com.tpo.test.TestAPI@2cb4893b]" started-at="2023-02-24T10:49:58 IST" name="testPutMethod" finished-at="2023-02-24T10:49:58 IST" duration-ms="531" status="PASS">
+        <test-method signature="testPutMethod()[pri:0, instance:com.tpo.test.TestAPI@6caf0677]" started-at="2023-02-26T20:31:41 IST" name="testPutMethod" finished-at="2023-02-26T20:31:41 IST" duration-ms="508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPutMethod -->
-        <test-method signature="testGetMethod()[pri:0, instance:com.tpo.test.TestAPI@2cb4893b]" started-at="2023-02-24T10:49:58 IST" name="testGetMethod" finished-at="2023-02-24T10:49:58 IST" duration-ms="131" status="PASS">
+        <test-method signature="testGetMethod()[pri:0, instance:com.tpo.test.TestAPI@6caf0677]" started-at="2023-02-26T20:31:41 IST" name="testGetMethod" finished-at="2023-02-26T20:31:42 IST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetMethod -->
-        <test-method signature="testDeleteMethod()[pri:0, instance:com.tpo.test.TestAPI@2cb4893b]" started-at="2023-02-24T10:49:58 IST" name="testDeleteMethod" finished-at="2023-02-24T10:49:59 IST" duration-ms="536" status="PASS">
+        <test-method signature="testDeleteMethod()[pri:0, instance:com.tpo.test.TestAPI@6caf0677]" started-at="2023-02-26T20:31:42 IST" name="testDeleteMethod" finished-at="2023-02-26T20:31:42 IST" duration-ms="583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteMethod -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.tpo.test.TestAPI@2cb4893b]" started-at="2023-02-24T10:49:59 IST" name="closeDriver" finished-at="2023-02-24T10:49:59 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.tpo.test.TestAPI@6caf0677]" started-at="2023-02-26T20:31:42 IST" name="closeDriver" finished-at="2023-02-26T20:31:42 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.close()" because "com.tpo.testbase.TestBase.driver" is null]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "com.tpo.testbase.TestBase.driver" is null
-at com.tpo.testbase.TestBase.closeDriver(TestBase.java:43)
+at com.tpo.testbase.TestBase.closeDriver(TestBase.java:40)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

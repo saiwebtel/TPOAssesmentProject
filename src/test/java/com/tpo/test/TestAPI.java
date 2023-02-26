@@ -38,7 +38,6 @@ public class TestAPI extends TestBase{
 		RestAssured.basePath="api/users/"+id;
 		Response response=RestUtils.sendGetRequest();
 		Assert.assertEquals(200,response.getStatusCode());	
-		System.out.println(response.getBody().asString());
 	}
 	@Test
 	public void testDeleteMethod()

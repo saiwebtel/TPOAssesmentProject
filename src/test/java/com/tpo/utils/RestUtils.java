@@ -8,7 +8,7 @@ public class RestUtils {
 	{
 		Response response=given()
 				 		  .header("Content-Type","application/json")
-				 		  .body(postBody).log().all()
+				 		  .body(postBody)
 				 		  .when()
 				 		  .post();				 		  
 		return response;	
