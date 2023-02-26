@@ -20,7 +20,7 @@ public class TestBase {
 	public void beforeSuite() {
 		RestAssured.baseURI = "https://reqres.in/";
 	}
-	public Properties getPropertyData()
+	public static Properties getPropertyData()
 	{
 		property = new Properties();
 		try {
