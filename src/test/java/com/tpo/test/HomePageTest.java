@@ -37,7 +37,7 @@ public class HomePageTest {
       Assert.assertEquals(finalString, "Apple iPhone");;
 	}
 	
-	@Test(priority = 5)
+	@Test(priority = 6)
 	public void closeBrowsers()
 	{
 		driver.quit();
