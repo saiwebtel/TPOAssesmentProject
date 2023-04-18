@@ -40,7 +40,6 @@ public class HomePageTest {
 	@Test(priority = 5)
 	public void closeBrowser()
 	{
-		System.out.println("HELLO");
 		driver.quit();
 	}
 }
