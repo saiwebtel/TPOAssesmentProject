@@ -38,7 +38,7 @@ public class HomePageTest {
 	}
 	
 	@Test(priority = 5)
-	public void closeBrowsers()
+	public void closeBrowser()
 	{
 		driver.quit();
 	}
