@@ -1,17 +1,24 @@
 package com.tpo.testdata;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
-
-import org.apache.commons.lang3.RandomStringUtils;
+import org.json.JSONException;
 import org.json.JSONObject;
-public class TestDataGeneration {
+
+import com.tpo.testbase.TestBase;
+public class TestDataGeneration extends TestBase {
 	public static String jsonBody()
 	{
 		JSONObject object=new JSONObject();
-		//object.put("username", RandomStringUtils.randomAlphabetic(7));
-		object.put("email", "eve.holt@reqres.in");
-		object.put("password", "pistol");
+		try {
+			object.put("email", getPropertyData().getProperty("user"));
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			object.put("password", getPropertyData().getProperty("password"));
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		String jsonBody=object.toString();
 		return jsonBody;		
 	}

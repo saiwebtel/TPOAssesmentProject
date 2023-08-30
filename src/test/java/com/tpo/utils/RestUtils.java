@@ -8,18 +8,16 @@ public class RestUtils {
 	{
 		Response response=given()
 				 		  .header("Content-Type","application/json")
-				 		  .body(postBody).log().all()
+				 		  .body(postBody)
 				 		  .when()
-				 		  .post();
-				 		  
+				 		  .post();				 		  
 		return response;	
 	}
 	public static Response sendPutRequest(String postBody)
 	{
 		Response response=given()
 				 		  .header("Content-Type","application/json")
-				 		  .body(postBody).log().all()
-				 		  //.queryParams("id",ID)
+				 		  .body(postBody)
 				 		  .when()
 				 		  .put();
 		return response;	
