@@ -7,7 +7,7 @@
       <methods>
                <include name="testPostMethod" />
                <include name="testPutMethod" />
-               <include name="testGetMethod" />
+               <include name="testGetMethod1" />
                <include name="testDeleteMethod" />
             </methods>
        </class>
