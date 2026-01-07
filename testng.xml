@@ -8,7 +8,7 @@
                <include name="testPostMethod" />
                <include name="testPutMethod" />
                <include name="testGetMethod1" />
-               <!--include name="testDeleteMethod" /-->
+               <include name="testDeleteMethod" />
             </methods>
        </class>
     </classes>
